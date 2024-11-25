@@ -307,7 +307,7 @@ export default ApplyForm;
 //     }
 
 //     try {
-//       const res = await axios.get("http://localhost:5500/user/me", {
+//       const res = await axios.get("https://interns-f4di.onrender.com/user/me", {
 //         headers: {
 //           "Content-Type": "application/json",
 //           authtoken: TOKEN, // Use the token stored in localStorage

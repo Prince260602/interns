@@ -34,7 +34,7 @@ const AddInternship = ({
     console.log(internshipDetails);
     addinternshiphandler(internshipDetails);
     // try {
-    //   await axios.post(`http://localhost:5500/jobs/create`, internshipDetails)
+    //   await axios.post(`https://interns-f4di.onrender.com/jobs/create`, internshipDetails)
     //     .then((res) => {
     //       console.log("Job Posted.");
     //       alert("Job Posted!");

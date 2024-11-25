@@ -254,7 +254,7 @@
 // //       };
 
 // //       const response = await axios.put(
-// //         `http://localhost:5500/jobs/${currjobdetails.job_id}`, // Update API endpoint
+// //         `https://interns-f4di.onrender.com/jobs/${currjobdetails.job_id}`, // Update API endpoint
 // //         updatedJobDetails,
 // //         {
 // //           headers: {

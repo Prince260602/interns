@@ -30,7 +30,7 @@ const Navbar = () => {
     const fetchLoggedInUser = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5500/user/login/verify",
+          "https://interns-f4di.onrender.com/user/login/verify",
           {
             headers: {
               "Content-Type": "application/json",

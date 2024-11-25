@@ -9,7 +9,7 @@ const Applications = () => {
 
   const fetchApplications = async () => {
     try {
-      const res = await axios.get("http://localhost:5500/jobs/applications");
+      const res = await axios.get("https://interns-f4di.onrender.com/jobs/applications");
       // console.log("Applications fetched: ", res.data);
       setApplications(res.data);
     } catch (e) {
@@ -20,7 +20,7 @@ const Applications = () => {
   const fetchLoggedInUser = async () => {
     try {
       const response = await fetch(
-          "http://localhost:5500/user/login/verify",
+          "https://interns-f4di.onrender.com/user/login/verify",
           {
             headers: {
               "Content-Type": "application/json",

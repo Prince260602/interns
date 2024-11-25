@@ -34,7 +34,7 @@ function SignUp() {
     console.log(event.target.value);
     try {
       const response = await fetch(
-        "http://localhost:5500/user/register",
+        "https://interns-f4di.onrender.com/user/register",
         {
           method: "POST",
           headers: {
