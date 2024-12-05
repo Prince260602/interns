@@ -45,7 +45,7 @@ function SignUp() {
             lastName,
             email,
             password,
-            userName,
+            // userName,
           }),
         }
       );
